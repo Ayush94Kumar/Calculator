@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #868383;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.claculater {
+    background: #222;
+    padding: 30px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.claculater input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: right;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.claculater div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.claculater button {
+    width: 50px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+}
+
+.claculater button:hover {
+    background-color: #666;
+}
+
+.claculater button:active {
+    background-color: #888;
+}
